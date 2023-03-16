@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 100%;
+    min-height: 100vh;
+    padding: 65px 160px 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo-dark {
+    width: 60px;
+    height: 32px;
+}
+
+.navigation {
+    padding-top: 27px;
+    padding-right: 193px;
+
+}
+
+.navigation .active {
+    color: #5FB4A2;
+}
+
+.navigation-item {
+    margin-left: 43px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #33323D;
+}
+
+.hero {
+    width: 1110px;
+    height: 600px;
+    background-image: url('../../assets/home/image-homepage-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 55px;
+}
+
+.text-button {
+    background-color: #FAFAFA;
+    width: 445px;
+    height: 357px;
+    position: absolute;
+    left: 190px;
+    bottom: -110px;
+}
+
+.text-button h1 {
+    height: 200px;
+    position: absolute;
+    left: 6.07%;
+    right: 6.29%;
+    top: calc(50% - 200px/2 - 22.5px);
+
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.446429px;
+
+    color: #33323D;
+
+}
+
+.about-button {
+    background-color: #203a4c;
+    color: #ffffff;
+    width: 200px;
+    height: 48px;
+    position: relative;
+    left: 0%;
+    right: 55.06%;
+    top: 86.55%;
+    padding: 0;
+    padding-right: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.about-button svg {
+    box-sizing: content-box;
+    padding: 18px 16px;
+    margin-right: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.about-button:hover {
+    background-color: #5fb4a2;
+}
+
+.about-button:hover svg g {
+    stroke: #ffffff;
+}
