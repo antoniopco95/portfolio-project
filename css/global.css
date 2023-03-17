@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.header .logo-dark {
+    margin-left: 156px;
+    width: 60px;
+    height: 32px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 170px;
+
+}
+
+.navigation .active {
+    color: #5FB4A2;
+}
+
+.navigation-item {
+    margin-right: 42px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #33323D;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0 150px 0;
+}
+
+.contact h2 {
+    height: 84px;
+    width: 367px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+
+}
+
+.contact button {
+    width: 168px;
+    height: 48px;
+    margin: 18px 0 18px 575px;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+    background-color: #FAFAFA;
+    border: 1px solid #33323D;
+}
+
+.contact button:hover {
+    background-color: #33323D;
+    color: #eaeaeb;
+}
+
+.footer {
+    background-color: #33323D;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .nav-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bottom img {
+    width: 60.08px;
+    height: 32px;
+    margin-left: 165px;
+}
+
+.footer-navigation {
+    margin-left: 48.92px;
+}
+
+.footer-item {
+    margin-right: 42px;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social-media {
+    width: 104px;
+    height: 24px;
+    display: flex;
+    padding-right: 165px;
+    justify-content: flex-end;
+}
+
+.social-github {
+    width: 24px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.social-twitter {
+    height: 19.5px;
+    width: 24px;
+    margin-right: 15px;
+}
+
+.social-linkedin {
+    height: 24px;
+    width: 24px;
+}
+
+button {
+    cursor: pointer;
+}
