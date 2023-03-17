@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FAFAFA;
 }
 
 .header {
@@ -127,4 +128,77 @@
 
 .about-button:hover svg g {
     stroke: #ffffff;
+}
+
+.about-me {
+    width: 1110px;
+    height: 601px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.image img {
+    width: 540px;
+    height: 600px;
+}
+
+.about {
+    width: 430px;
+    height: 601px;
+    margin-left: 140px;
+    border-top: 1px solid rgb(51, 50, 61, 0.2);
+    border-bottom: 1px solid rgb(51, 50, 61, 0.2);
+}
+
+.about h2 {
+    margin-top: 51px;
+    margin-bottom: 28px;
+
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+}
+
+.about p {
+    width: 430px;
+    height: 360px;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.about button {
+    width: 204px;
+    height: 48px;
+    margin: 24px 113px 46px 113px;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+    background-color: #FAFAFA;
+    border: 1px solid #33323D;
+}
+
+.about button:hover {
+    background-color: #33323D;
+    
+
 }
