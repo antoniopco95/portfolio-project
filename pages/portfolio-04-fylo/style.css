@@ -148,6 +148,14 @@
     align-items: center;
 }
 
+.backward-foward a {
+    text-decoration: none;
+}
+
+.backward-foward {
+    align-items: center;
+}
+
 .backwards img {
     width: 8px;
     height: 16px;
@@ -185,7 +193,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    
+
 }
 
 .foward img {
